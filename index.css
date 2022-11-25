@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Verdana';
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:#1B244A;
+    height:385px;
+    width:578px;
+    color: #EEEEEE;
+    padding-top:68px;
+    text-align:center;
+
+}
+
+.screen{
+    width: 155px;
+    height: 120px;
+    background-color:#080001;
+    border-radius:5px;
+
+}
+#home-score{
+    margin:0 20px;
+    padding:15px;
+    font-style: normal;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;  
+}
+#guest-score{
+    margin:0 20px;
+    padding:15px;
+    font-style: normal;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;  
+}
+button{
+    font-style: normal;
+    font-family: 'Cursed Timer ULiL';  
+    border: 2px solid #9AABD8;
+    border-radius:5px;
+    background:#1B244A;
+    width: 45px;
+    height: 45px;
+    margin-top:26px;
+    color:#9AABD8;
+
+}
